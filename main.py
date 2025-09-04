@@ -44,7 +44,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY', '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')
+OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY', '....')
 
 if not TELEGRAM_BOT_TOKEN:
     raise ValueError("Не найден токен Telegram бота в .env файле")
