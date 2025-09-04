@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест Шахмат</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .status {
+            background: #2a2a2a;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        button {
+            background: #3390ec;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background: #2980d9;
+        }
+        .chess-board {
+            width: 320px;
+            height: 320px;
+            border: 2px solid #8b4513;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+        }
+        .square {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .light { background: #f0d9b5; }
+        .dark { background: #b58863; }
+        .square:hover { background: #7fb069 !important; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>♟️ Тест Шахмат</h1>
+        
+        <div class="status" id="status">
+            🎮 Приложение загружено успешно!
+        </div>
+        
+        <button onclick="testConnection()">🔌 Тест связи с ботом</button>
+        <button onclick="startGame()">🚀 Начать игру</button>
+        
+        <div class="chess-board" id="board">
+            <!-- Доска будет создана через JS -->
+        </div>
+        
+        <div class="status" id="debug">
+            📊 Отладочная информация появится здесь
+        </div>
+    </div>
+
+    <script>
+        // Инициализация Telegram Web App
+        let tg = window.Telegram.WebApp;
+        
+        function updateStatus(message) {
+            document.getElementById('status').innerHTML = message;
+        }
+        
+        function updateDebug(message) {
+            document.getElementById('debug').innerHTML = message;
+        }
+        
+        // Проверяем загрузку Telegram WebApp
+        if (tg) {
+            tg.ready();
+            tg.expand();
+            
+            updateStatus('🎮 Telegram WebApp инициализирован!');
+            updateDebug(`📱 Platform: ${tg.platform || 'unknown'}<br>🆔 User ID: ${tg.initDataUnsafe?.user?.id || 'unknown'}`);
+            
+            // Настраиваем главную кнопку
+            tg.MainButton.text = "Закрыть игру";
+            tg.MainButton.show();
+            
+            tg.onEvent('mainButtonClicked', function() {
+                tg.close();
+            });
+            
+        } else {
+            updateStatus('❌ Telegram WebApp не найден!');
+            updateDebug('Возможно, приложение открыто не в Telegram');
+        }
+        
+        function testConnection() {
+            updateStatus('🔄 Тестируем связь с ботом...');
+            
+            if (tg && tg.sendData) {
+                tg.sendData(JSON.stringify({
+                    action: 'test_connection',
+                    message: 'Привет от Mini App!'
+                }));
+                updateStatus('✅ Данные отправлены боту!');
+            } else {
+                updateStatus('❌ Невозможно отправить данные');
+            }
+        }
+        
+        function startGame() {
+            updateStatus('🎯 Создаем новую игру...');
+            
+            if (tg && tg.sendData) {
+                tg.sendData(JSON.stringify({
+                    action: 'start_game',
+                    difficulty: 'medium',
+                    playerColor: 'white'
+                }));
+                updateStatus('🎮 Игра создана! Проверьте чат с ботом.');
+            } else {
+                updateStatus('❌ Невозможно создать игру');
+            }
+        }
+        
+        // Создаем простую доску
+        function createBoard() {
+            const board = document.getElementById('board');
+            
+            // Начальная позиция
+            const pieces = [
+                ['♜','♞','♝','♛','♚','♝','♞','♜'],
+                ['♟','♟','♟','♟','♟','♟','♟','♟'],
+                ['','','','','','','',''],
+                ['','','','','','','',''],
+                ['','','','','','','',''],
+                ['','','','','','','',''],
+                ['♙','♙','♙','♙','♙','♙','♙','♙'],
+                ['♖','♘','♗','♕','♔','♗','♘','♖']
+            ];
+            
+            for (let row = 0; row < 8; row++) {
+                for (let col = 0; col < 8; col++) {
+                    const square = document.createElement('div');
+                    square.className = `square ${(row + col) % 2 === 0 ? 'light' : 'dark'}`;
+                    square.textContent = pieces[row][col];
+                    
+                    square.onclick = () => {
+                        updateDebug(`🎯 Клик на клетку: ${String.fromCharCode(97 + col)}${8 - row}`);
+                    };
+                    
+                    board.appendChild(square);
+                }
+            }
+        }
+        
+        // Создаем доску при загрузке
+        createBoard();
+        
+        // Обработка сообщений
+        window.addEventListener('message', function(event) {
+            updateDebug(`📨 Получено сообщение: ${JSON.stringify(event.data)}`);
+        });
+        
+    </script>
+</body>
+</html>

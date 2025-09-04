@@ -1,0 +1,137 @@
+{
+    "technical": {
+        "programming": {
+            "topics": ["алгоритмы", "языки программирования", "базы данных", "архитектура"],
+            "sources": [
+                {
+                    "title": "Python 3.8 Documentation",
+                    "authors": "Python Software Foundation",
+                    "url": "https://docs.python.org/3.8/",
+                    "type": "электронный ресурс",
+                    "reliability": 0.95,
+                    "category": "documentation",
+                    "examples": [
+                        "Использование asyncio для асинхронного программирования",
+                        "Работа с контекстными менеджерами",
+                        "Обработка исключений и отладка"
+                    ]
+                },
+                {
+                    "title": "Руководство по стилю кода Python (PEP 8)",
+                    "authors": "Guido van Rossum, Barry Warsaw, Nick Coghlan",
+                    "url": "https://www.python.org/dev/peps/pep-0008/",
+                    "type": "стандарт",
+                    "reliability": 0.95,
+                    "category": "standard",
+                    "examples": [
+                        "Правила именования переменных и функций",
+                        "Рекомендации по форматированию кода",
+                        "Комментарии и документация"
+                    ]
+                }
+            ]
+        },
+        "engineering": {
+            "topics": ["проектирование", "САПР", "материаловедение", "механика"],
+            "sources": [
+                {
+                    "title": "Инженерный портал России",
+                    "url": "https://engineering.ru",
+                    "reliability": 0.85,
+                    "category": "professional"
+                }
+            ]
+        },
+        "science": {
+            "topics": ["физика", "химия", "математика", "биология"],
+            "sources": [
+                {
+                    "title": "Научная электронная библиотека",
+                    "url": "https://elibrary.ru",
+                    "reliability": 0.9,
+                    "category": "scientific"
+                }
+            ]
+        },
+        "documentation": {
+            "topics": ["техническая документация", "ГОСТ", "стандарты оформления"],
+            "sources": [
+                {
+                    "title": "ГОСТ Р 7.0.5-2008: Библиографическая ссылка. Общие требования и правила составления",
+                    "authors": "ФГУП «СТАНДАРТИНФОРМ»",
+                    "url": "https://docs.cntd.ru/document/1200063713",
+                    "type": "стандарт",
+                    "reliability": 1.0,
+                    "category": "standard",
+                    "examples": [
+                        "Правила оформления библиографических ссылок",
+                        "Примеры оформления источников",
+                        "Особые случаи цитирования"
+                    ]
+                }
+            ]
+        }
+    },
+    "soft_skills": {
+        "communication": {
+            "topics": ["деловое общение", "переговоры", "презентации", "работа в команде"],
+            "sources": [
+                {
+                    "title": "Психология делового общения",
+                    "authors": "Столяренко Л.Д.",
+                    "url": "https://www.biblio-online.ru/book/psihologiya-delovogo-obscheniya",
+                    "type": "учебник",
+                    "reliability": 0.9,
+                    "category": "education",
+                    "examples": [
+                        "Техники активного слушания",
+                        "Невербальная коммуникация",
+                        "Разрешение конфликтов"
+                    ]
+                }
+            ]
+        },
+        "personal_growth": {
+            "topics": ["самообразование", "тайм-менеджмент", "мотивация", "лидерство"],
+            "sources": [
+                {
+                    "title": "Тайм-менеджмент: простые инструменты, которые меняют жизнь",
+                    "authors": "Архангельский Г.А.",
+                    "url": "https://www.mann-ivanov-ferber.ru/books/mif/time-drive/",
+                    "type": "книга",
+                    "reliability": 0.85,
+                    "category": "self-development",
+                    "examples": [
+                        "Методы планирования времени",
+                        "Борьба с прокрастинацией",
+                        "Повышение личной эффективности"
+                    ]
+                }
+            ]
+        }
+    },
+    "life_advice": {
+        "career": {
+            "topics": ["поиск работы", "собеседование", "карьерный рост", "профориентация"],
+            "sources": [
+                {
+                    "title": "HeadHunter - Советы по карьере",
+                    "url": "https://hh.ru/article/career",
+                    "reliability": 0.85,
+                    "category": "career"
+                }
+            ]
+        },
+        "health": {
+            "topics": ["здоровый образ жизни", "питание", "спорт", "ментальное здоровье"],
+            "sources": [
+                {
+                    "title": "Портал о здоровье",
+                    "url": "https://health-info.ru",
+                    "reliability": 0.8,
+                    "category": "health"
+                }
+            ]
+        }
+    }
+}

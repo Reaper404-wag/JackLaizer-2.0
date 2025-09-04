@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шахматные задачи Якова Давидовича</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--tg-theme-bg-color, #ffffff);
+            color: var(--tg-theme-text-color, #000000);
+            padding: 16px;
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+            padding: 20px;
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            border-radius: 16px;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .menu-item {
+            background: var(--tg-theme-button-color, #3390ec);
+            color: var(--tg-theme-button-text-color, #ffffff);
+            border: none;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .menu-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+
+        .menu-item .icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .chess-board {
+            display: none;
+            background: #f0d9b5;
+            border: 2px solid #8b4513;
+            border-radius: 8px;
+            padding: 8px;
+            margin: 20px auto;
+            width: 320px;
+            height: 320px;
+            position: relative;
+        }
+
+        .board-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+        }
+
+        .square {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .square.light {
+            background-color: #f0d9b5;
+        }
+
+        .square.dark {
+            background-color: #b58863;
+        }
+
+        .square:hover {
+            background-color: #7fb069 !important;
+        }
+
+        .square.selected {
+            background-color: #7fb069 !important;
+            box-shadow: inset 0 0 0 3px #4a7c59;
+        }
+
+        .square.possible-move {
+            background-color: rgba(127, 176, 105, 0.5) !important;
+        }
+
+        .square.possible-move::after {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #2d5a32;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .square.possible-capture::after {
+            content: '';
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            border: 3px solid #d32f2f;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: none;
+        }
+
+        .piece-white {
+            color: #ffffff;
+            text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000, 
+                         1px -1px 0 #000000, -1px 1px 0 #000000;
+        }
+
+        .piece-black {
+            color: #000000;
+            text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 
+                         1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+        }
+
+        .puzzle-info {
+            background: var(--tg-theme-secondary-bg-color, #f8f9fa);
+            border-radius: 12px;
+            padding: 16px;
+            margin: 16px 0;
+            border-left: 4px solid var(--tg-theme-button-color, #3390ec);
+        }
+
+        .puzzle-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: var(--tg-theme-text-color, #000000);
+        }
+
+        .puzzle-description {
+            color: var(--tg-theme-hint-color, #999999);
+            line-height: 1.4;
+        }
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .btn {
+            background: var(--tg-theme-button-color, #3390ec);
+            color: var(--tg-theme-button-text-color, #ffffff);
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+        .btn.secondary {
+            background: var(--tg-theme-secondary-bg-color, #f8f9fa);
+            color: var(--tg-theme-text-color, #000000);
+            border: 1px solid var(--tg-theme-hint-color, #999999);
+        }
+
+        .stats {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin: 16px 0;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 12px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .yakovs-comment {
+            background: #2c3e50;
+            color: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin: 16px 0;
+            font-style: italic;
+            position: relative;
+        }
+
+        .yakovs-comment:before {
+            content: "👴";
+            position: absolute;
+            top: -8px;
+            left: 16px;
+            background: #2c3e50;
+            padding: 0 8px;
+        }
+
+        @media (max-width: 480px) {
+            .chess-board {
+                width: 280px;
+                height: 280px;
+            }
+            
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>♟️ Шахматы с Яковом Давидовичем</h1>
+        <p>Решайте задачи от опытного советского инженера</p>
+    </div>
+
+    <!-- Главное меню -->
+    <div id="main-menu" class="menu-grid">
+        <button class="menu-item" onclick="showChessPuzzles()">
+            <span class="icon">♟️</span>
+            Шахматные задачи
+        </button>
+        <button class="menu-item" onclick="showStats()">
+            <span class="icon">📊</span>
+            Статистика
+        </button>
+        <button class="menu-item" onclick="showAbout()">
+            <span class="icon">👴</span>
+            О Якове
+        </button>
+        <button class="menu-item" onclick="askYakov()">
+            <span class="icon">💬</span>
+            Спросить Якова
+        </button>
+    </div>
+
+    <!-- Шахматные задачи -->
+    <div id="chess-section" class="hidden">
+        <div class="puzzle-info">
+            <div class="puzzle-title" id="puzzle-title">Мат в 2 хода</div>
+            <div class="puzzle-description" id="puzzle-description">
+                Белые начинают и дают мат в два хода. Найдите правильное решение!
+            </div>
+        </div>
+
+        <div class="chess-board" id="chess-board">
+            <div class="board-grid" id="board-grid">
+                <!-- Шахматная доска будет создана JavaScript -->
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn" onclick="showHint()">💡 Подсказка</button>
+            <button class="btn" onclick="resetPuzzle()">🔄 Сброс</button>
+            <button class="btn secondary" onclick="showMainMenu()">← Назад</button>
+        </div>
+
+        <div class="yakovs-comment" id="yakovs-comment">
+            "Помните, товарищ: в шахматах, как и в программировании, нужно думать на несколько ходов вперед!"
+        </div>
+    </div>
+
+    <!-- Статистика -->
+    <div id="stats-section" class="hidden">
+        <div class="stats">
+            <h3>📊 Ваша статистика</h3>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" id="solved-puzzles">12</span>
+                    <span class="stat-label">Решено</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="accuracy">85%</span>
+                    <span class="stat-label">Точность</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="streak">5</span>
+                    <span class="stat-label">Серия</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="yakovs-comment">
+            "Неплохие результаты! В советское время мы тоже вели статистику - это помогает совершенствоваться."
+        </div>
+
+        <div class="controls">
+            <button class="btn secondary" onclick="showMainMenu()">← Назад</button>
+        </div>
+    </div>
+
+    <!-- О Якове -->
+    <div id="about-section" class="hidden">
+        <div class="puzzle-info">
+            <div class="puzzle-title">👴 Яков Давидович</div>
+            <div class="puzzle-description">
+                70-летний советский инженер из Новороссийска. Всю жизнь проработал программистом, 
+                знает все ГОСТы наизусть. Увлекается шахматами с юности - считает, что они развивают 
+                алгоритмическое мышление.
+            </div>
+        </div>
+
+        <div class="yakovs-comment">
+            "Шахматы научили меня мыслить системно. Каждый ход - как строчка кода, должен быть обдуман и точен!"
+        </div>
+
+        <div class="controls">
+            <button class="btn secondary" onclick="showMainMenu()">← Назад</button>
+        </div>
+    </div>
+
+    <script>
+        // Инициализация Telegram Web App
+        let tg = window.Telegram.WebApp;
+        tg.ready();
+        tg.expand();
+
+        // Применяем тему Telegram
+        document.body.style.backgroundColor = tg.backgroundColor;
+
+        // Шахматные фигуры в Unicode
+        const pieces = {
+            'K': '♔', 'Q': '♕', 'R': '♖', 'B': '♗', 'N': '♘', 'P': '♙',
+            'k': '♚', 'q': '♛', 'r': '♜', 'b': '♝', 'n': '♞', 'p': '♟'
+        };
+
+        // Простая шахматная позиция для демонстрации
+        const samplePosition = [
+            ['r', '', 'b', 'q', 'k', 'b', 'n', 'r'],
+            ['p', 'p', 'p', 'p', '', 'p', 'p', 'p'],
+            ['', '', 'n', '', '', '', '', ''],
+            ['', '', '', '', 'p', '', '', ''],
+            ['', '', '', '', 'P', '', '', ''],
+            ['', '', '', '', '', 'N', '', ''],
+            ['P', 'P', 'P', 'P', '', 'P', 'P', 'P'],
+            ['R', 'N', 'B', 'Q', 'K', 'B', '', 'R']
+        ];
+
+        function showMainMenu() {
+            hideAllSections();
+            document.getElementById('main-menu').classList.remove('hidden');
+        }
+
+        function showChessPuzzles() {
+            hideAllSections();
+            document.getElementById('chess-section').classList.remove('hidden');
+            document.getElementById('chess-board').style.display = 'block';
+            createChessBoard();
+        }
+
+        function showStats() {
+            hideAllSections();
+            document.getElementById('stats-section').classList.remove('hidden');
+            updateStats();
+        }
+
+        function showAbout() {
+            hideAllSections();
+            document.getElementById('about-section').classList.remove('hidden');
+        }
+
+        function askYakov() {
+            // Отправляем сообщение обратно в бот
+            tg.sendData(JSON.stringify({
+                action: 'ask_yakov',
+                message: 'Пользователь хочет задать вопрос Якову'
+            }));
+        }
+
+        function hideAllSections() {
+            document.getElementById('main-menu').classList.add('hidden');
+            document.getElementById('chess-section').classList.add('hidden');
+            document.getElementById('stats-section').classList.add('hidden');
+            document.getElementById('about-section').classList.add('hidden');
+        }
+
+        let selectedSquare = null;
+        let possibleMoves = [];
+
+        function createChessBoard() {
+            const boardGrid = document.getElementById('board-grid');
+            boardGrid.innerHTML = '';
+
+            for (let row = 0; row < 8; row++) {
+                for (let col = 0; col < 8; col++) {
+                    const square = document.createElement('div');
+                    square.className = `square ${(row + col) % 2 === 0 ? 'light' : 'dark'}`;
+                    square.dataset.row = row;
+                    square.dataset.col = col;
+                    
+                    const piece = samplePosition[row][col];
+                    if (piece) {
+                        square.textContent = pieces[piece];
+                        // Добавляем класс цвета
+                        square.classList.add(piece === piece.toUpperCase() ? 'piece-white' : 'piece-black');
+                    }
+                    
+                    square.onclick = () => handleSquareClick(row, col, square);
+                    boardGrid.appendChild(square);
+                }
+            }
+        }
+
+        function handleSquareClick(row, col, square) {
+            clearHighlights();
+            
+            const piece = samplePosition[row][col];
+            
+            // Если кликнули на фигуру
+            if (piece) {
+                selectedSquare = {row, col};
+                square.classList.add('selected');
+                
+                // Показываем возможные ходы
+                possibleMoves = getPossibleMoves(row, col, piece);
+                highlightPossibleMoves(possibleMoves);
+                
+                document.getElementById('yakovs-comment').textContent = 
+                    `"Выбрана фигура ${pieces[piece]}. Ищите лучший ход, товарищ!"`;
+            } 
+            // Если кликнули на пустую клетку и есть выбранная фигура
+            else if (selectedSquare) {
+                // Проверяем, является ли ход возможным
+                const isValidMove = possibleMoves.some(move => move.row === row && move.col === col);
+                
+                if (isValidMove) {
+                    // Делаем ход
+                    makeMove(selectedSquare.row, selectedSquare.col, row, col);
+                    selectedSquare = null;
+                    possibleMoves = [];
+                } else {
+                    // Неверный ход
+                    document.getElementById('yakovs-comment').textContent = 
+                        '"Этот ход невозможен, товарищ. Изучайте правила!"';
+                }
+            }
+        }
+
+        function clearHighlights() {
+            document.querySelectorAll('.square').forEach(square => {
+                square.classList.remove('selected', 'possible-move', 'possible-capture');
+            });
+        }
+
+        function getPossibleMoves(row, col, piece) {
+            const moves = [];
+            const pieceType = piece.toLowerCase();
+            const isWhite = piece === piece.toUpperCase();
+            
+            // Простая логика для демонстрации (только пешки и кони)
+            if (pieceType === 'p') { // Пешка
+                const direction = isWhite ? -1 : 1;
+                const newRow = row + direction;
+                
+                if (newRow >= 0 && newRow < 8) {
+                    // Ход вперед
+                    if (!samplePosition[newRow][col]) {
+                        moves.push({row: newRow, col: col, type: 'move'});
+                    }
+                    
+                    // Взятие по диагонали
+                    if (col > 0 && samplePosition[newRow][col - 1] && 
+                        isOpponentPiece(samplePosition[newRow][col - 1], isWhite)) {
+                        moves.push({row: newRow, col: col - 1, type: 'capture'});
+                    }
+                    if (col < 7 && samplePosition[newRow][col + 1] && 
+                        isOpponentPiece(samplePosition[newRow][col + 1], isWhite)) {
+                        moves.push({row: newRow, col: col + 1, type: 'capture'});
+                    }
+                }
+            } else if (pieceType === 'n') { // Конь
+                const knightMoves = [
+                    [-2, -1], [-2, 1], [-1, -2], [-1, 2],
+                    [1, -2], [1, 2], [2, -1], [2, 1]
+                ];
+                
+                knightMoves.forEach(([dRow, dCol]) => {
+                    const newRow = row + dRow;
+                    const newCol = col + dCol;
+                    
+                    if (newRow >= 0 && newRow < 8 && newCol >= 0 && newCol < 8) {
+                        const targetPiece = samplePosition[newRow][newCol];
+                        if (!targetPiece) {
+                            moves.push({row: newRow, col: newCol, type: 'move'});
+                        } else if (isOpponentPiece(targetPiece, isWhite)) {
+                            moves.push({row: newRow, col: newCol, type: 'capture'});
+                        }
+                    }
+                });
+            }
+            // Добавьте логику для других фигур по желанию
+            
+            return moves;
+        }
+
+        function isOpponentPiece(piece, isWhitePlayer) {
+            const isPieceWhite = piece === piece.toUpperCase();
+            return isPieceWhite !== isWhitePlayer;
+        }
+
+        function highlightPossibleMoves(moves) {
+            moves.forEach(move => {
+                const square = document.querySelector(`[data-row="${move.row}"][data-col="${move.col}"]`);
+                if (square) {
+                    if (move.type === 'capture') {
+                        square.classList.add('possible-capture');
+                    } else {
+                        square.classList.add('possible-move');
+                    }
+                }
+            });
+        }
+
+        function makeMove(fromRow, fromCol, toRow, toCol) {
+            // Перемещаем фигуру
+            const piece = samplePosition[fromRow][fromCol];
+            samplePosition[toRow][toCol] = piece;
+            samplePosition[fromRow][fromCol] = '';
+            
+            // Перерисовываем доску
+            createChessBoard();
+            
+            // Отправляем данные о ходе в бот
+            tg.sendData(JSON.stringify({
+                action: 'chess_move',
+                from: {row: fromRow, col: fromCol},
+                to: {row: toRow, col: toCol},
+                piece: piece,
+                position: samplePosition
+            }));
+            
+            document.getElementById('yakovs-comment').textContent = 
+                `"Хороший ход! Фигура ${pieces[piece]} перемещена. Как говорится, практика - лучший учитель!"`;
+        }
+
+        function showHint() {
+            const hints = [
+                "Подсказка Якова: Обратите внимание на позицию короля!",
+                "Как говорится, лучший ход часто самый простой.",
+                "Помните: в шахматах важна не только атака, но и защита.",
+                "Ищите форсированные варианты - шах, взятие, угроза."
+            ];
+            
+            const randomHint = hints[Math.floor(Math.random() * hints.length)];
+            document.getElementById('yakovs-comment').textContent = `"${randomHint}"`;
+        }
+
+        function resetPuzzle() {
+            selectedSquare = null;
+            possibleMoves = [];
+            
+            // Восстанавливаем исходную позицию
+            const originalPosition = [
+                ['r', '', 'b', 'q', 'k', 'b', 'n', 'r'],
+                ['p', 'p', 'p', 'p', '', 'p', 'p', 'p'],
+                ['', '', 'n', '', '', '', '', ''],
+                ['', '', '', '', 'p', '', '', ''],
+                ['', '', '', '', 'P', '', '', ''],
+                ['', '', '', '', '', 'N', '', ''],
+                ['P', 'P', 'P', 'P', '', 'P', 'P', 'P'],
+                ['R', 'N', 'B', 'Q', 'K', 'B', '', 'R']
+            ];
+            
+            for (let row = 0; row < 8; row++) {
+                for (let col = 0; col < 8; col++) {
+                    samplePosition[row][col] = originalPosition[row][col];
+                }
+            }
+            
+            createChessBoard();
+            document.getElementById('yakovs-comment').textContent = 
+                '"Начинаем сначала! Как говорится, повторение - мать учения."';
+        }
+
+        function updateStats() {
+            // Генерируем случайную статистику для демонстрации
+            document.getElementById('solved-puzzles').textContent = Math.floor(Math.random() * 50) + 10;
+            document.getElementById('accuracy').textContent = (Math.random() * 30 + 70).toFixed(0) + '%';
+            document.getElementById('streak').textContent = Math.floor(Math.random() * 15) + 1;
+        }
+
+        // Обработка данных от Telegram
+        tg.onEvent('mainButtonClicked', function() {
+            tg.close();
+        });
+
+        // Показываем главную кнопку
+        tg.MainButton.text = "Закрыть приложение";
+        tg.MainButton.show();
+    </script>
+</body>
+</html>

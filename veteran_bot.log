@@ -1,0 +1,898 @@
+2024-12-02 18:00:11,902 - __main__ - INFO - Бот запущен
+2024-12-02 18:00:11,902 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-02 18:00:12,620 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:295] in chat [private:912632281]
+2024-12-02 18:00:17,948 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:296] in chat [private:912632281]
+2024-12-02 18:00:19,052 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529263]: [success] (in 6432 ms)
+2024-12-02 18:00:19,319 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529264]: [success] (in 1372 ms)
+2024-12-02 18:09:33,770 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:299] in chat [private:912632281]
+2024-12-02 18:09:34,779 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529265]: [success] (in 1009 ms)
+2024-12-02 18:11:13,576 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-02 18:11:32,354 - __main__ - INFO - Бот запущен
+2024-12-02 18:11:32,354 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-02 18:11:33,799 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:301] in chat [private:912632281]
+2024-12-02 18:11:37,057 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529266]: [success] (in 3257 ms)
+2024-12-02 18:11:40,773 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:303] in chat [private:912632281]
+2024-12-02 18:11:41,534 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529267]: [success] (in 760 ms)
+2024-12-02 18:11:45,191 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:305] in chat [private:912632281]
+2024-12-02 18:11:45,999 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529268]: [success] (in 809 ms)
+2024-12-02 18:11:59,327 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-02 18:13:01,844 - __main__ - INFO - Бот запущен
+2024-12-02 18:13:01,845 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-02 18:13:13,506 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:307] in chat [private:912632281]
+2024-12-02 18:13:13,507 - __main__ - INFO - Получено новое сообщение: привет
+2024-12-02 18:13:13,507 - __main__ - INFO - Тип сообщения: communication
+2024-12-02 18:13:13,507 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-02 18:13:13,507 - __main__ - INFO - Начинаем генерацию ответа на промпт: привет
+2024-12-02 18:13:13,507 - __main__ - INFO - Токенизируем промпт...
+2024-12-02 18:13:13,509 - __main__ - INFO - Генерируем ответ с помощью модели...
+2024-12-02 18:13:14,136 - __main__ - INFO - Декодируем ответ...
+2024-12-02 18:13:16,244 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529269]: [success] (in 2738 ms)
+2024-12-02 18:14:40,591 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-02 18:14:44,539 - __main__ - INFO - Загружаем модель...
+2024-12-02 18:14:46,701 - __main__ - INFO - Модель загружена успешно
+2024-12-02 18:14:46,705 - __main__ - INFO - Бот запущен
+2024-12-02 18:14:46,705 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-02 18:14:47,349 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:309] in chat [private:912632281]
+2024-12-02 18:14:47,350 - __main__ - INFO - Получено новое сообщение: ку
+2024-12-02 18:14:47,350 - __main__ - INFO - Тип сообщения: communication
+2024-12-02 18:14:47,350 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-02 18:14:47,350 - __main__ - INFO - Начинаем генерацию ответа на промпт: ку
+2024-12-02 18:14:47,350 - __main__ - INFO - Токенизируем промпт...
+2024-12-02 18:14:47,352 - __main__ - INFO - Генерируем ответ с помощью модели...
+2024-12-02 18:14:47,967 - __main__ - INFO - Декодируем ответ...
+2024-12-02 18:14:49,915 - __main__ - INFO - Сгенерирован ответ: р
+2024-12-02 18:14:49,915 - __main__ - INFO - Отправляем ответ: р
+2024-12-02 18:14:50,079 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529270]: [success] (in 2730 ms)
+2024-12-02 18:14:53,630 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:311] in chat [private:912632281]
+2024-12-02 18:14:53,630 - __main__ - INFO - Получено новое сообщение: как дела?
+2024-12-02 18:14:53,630 - __main__ - INFO - Тип сообщения: communication
+2024-12-02 18:14:53,631 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-02 18:14:53,631 - __main__ - INFO - Начинаем генерацию ответа на промпт: как дела?
+2024-12-02 18:14:53,631 - __main__ - INFO - Токенизируем промпт...
+2024-12-02 18:14:53,632 - __main__ - INFO - Генерируем ответ с помощью модели...
+2024-12-02 18:14:54,291 - __main__ - INFO - Декодируем ответ...
+2024-12-02 18:14:54,497 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529271]: [success] (in 867 ms)
+2024-12-02 18:14:59,759 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-02 18:16:10,222 - __main__ - INFO - Загружаем модель из d:/python_2.0/PythonApplication1/PythonApplication1/project/JackLaizer\models\fred_t5...
+2024-12-02 18:16:45,390 - __main__ - INFO - Загружаем модель из d:/python_2.0/PythonApplication1/PythonApplication1/project/JackLaizer\models\fred_t5...
+2024-12-02 18:17:25,958 - __main__ - INFO - Загружаем модель ai-forever/FRED-T5-1.7B...
+2024-12-02 18:17:25,959 - __main__ - INFO - Локальная версия не найдена (Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'd:/python_2.0/PythonApplication1/PythonApplication1/project/JackLaizer\models\fred_t5'. Use `repo_type` argument if needed.), загружаем с Hugging Face...
+2024-12-03 21:40:12,241 - __main__ - INFO - Бот запущен
+2024-12-03 21:40:12,241 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 21:40:26,602 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:314] in chat [private:912632281]
+2024-12-03 21:40:26,602 - __main__ - INFO - Получено новое сообщение: привет
+2024-12-03 21:40:26,604 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 21:40:26,604 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-03 21:40:26,604 - __main__ - INFO - Начинаем генерацию ответа на промпт: привет
+2024-12-03 21:40:38,430 - __main__ - ERROR - Ошибка API Gemini: 404 - {"result":"error","reason":"EndpointNotFound","message":"API entry point `/v1/generate` not found"}
+2024-12-03 21:40:38,431 - __main__ - INFO - Отправляем ответ: Произошла ошибка при генерации ответа. Попробуйте позже.
+2024-12-03 21:40:38,658 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529273]: [success] (in 12056 ms)
+2024-12-03 21:41:32,190 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-03 21:42:36,684 - __main__ - INFO - Бот запущен
+2024-12-03 21:42:36,684 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 21:42:48,423 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:316] in chat [private:912632281]
+2024-12-03 21:42:48,423 - __main__ - INFO - Получено новое сообщение: ку
+2024-12-03 21:42:48,423 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 21:42:48,424 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-03 21:42:48,424 - __main__ - INFO - Начинаем генерацию ответа на промпт: ку
+2024-12-03 21:42:49,275 - __main__ - INFO - Статус ответа API Gemini: 404
+2024-12-03 21:42:49,276 - __main__ - INFO - Тело ответа API Gemini: {"result":"error","reason":"EndpointNotFound","message":"API entry point `/v1/generate` not found"}
+2024-12-03 21:42:49,276 - __main__ - ERROR - Ошибка API Gemini: 404 - {"result":"error","reason":"EndpointNotFound","message":"API entry point `/v1/generate` not found"}
+2024-12-03 21:42:49,276 - __main__ - INFO - Отправляем ответ: Произошла ошибка при генерации ответа. Попробуйте позже.
+2024-12-03 21:42:49,277 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:317] in chat [private:912632281]
+2024-12-03 21:42:49,277 - __main__ - INFO - Получено новое сообщение: привет
+2024-12-03 21:42:49,277 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 21:42:49,278 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-03 21:42:49,278 - __main__ - INFO - Начинаем генерацию ответа на промпт: привет
+2024-12-03 21:42:50,021 - __main__ - INFO - Статус ответа API Gemini: 404
+2024-12-03 21:42:50,022 - __main__ - INFO - Тело ответа API Gemini: {"result":"error","reason":"EndpointNotFound","message":"API entry point `/v1/generate` not found"}
+2024-12-03 21:42:50,022 - __main__ - ERROR - Ошибка API Gemini: 404 - {"result":"error","reason":"EndpointNotFound","message":"API entry point `/v1/generate` not found"}
+2024-12-03 21:42:50,022 - __main__ - INFO - Отправляем ответ: Произошла ошибка при генерации ответа. Попробуйте позже.
+2024-12-03 21:42:50,260 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529274]: [success] (in 1837 ms)
+2024-12-03 21:42:50,477 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529275]: [success] (in 1200 ms)
+2024-12-03 21:43:29,677 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-03 21:43:31,493 - __main__ - INFO - Бот запущен
+2024-12-03 21:43:31,494 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 21:43:43,309 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:320] in chat [private:912632281]
+2024-12-03 21:43:43,310 - __main__ - INFO - Получено новое сообщение: ку
+2024-12-03 21:43:43,310 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 21:43:43,311 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-03 21:43:43,311 - __main__ - INFO - Начинаем генерацию ответа на промпт: ку
+2024-12-03 21:43:44,013 - __main__ - INFO - Статус ответа API Gemini: 404
+2024-12-03 21:43:44,013 - __main__ - INFO - Тело ответа API Gemini: {"result":"error","reason":"EndpointNotFound","message":"API entry point `/v1/text/generate` not found"}
+2024-12-03 21:43:44,013 - __main__ - ERROR - Ошибка API Gemini: 404 - {"result":"error","reason":"EndpointNotFound","message":"API entry point `/v1/text/generate` not found"}
+2024-12-03 21:43:44,013 - __main__ - INFO - Отправляем ответ: Произошла ошибка при генерации ответа. Попробуйте позже.
+2024-12-03 21:43:44,203 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529276]: [success] (in 894 ms)
+2024-12-03 21:50:46,717 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-03 21:50:59,994 - __main__ - INFO - Бот запущен
+2024-12-03 21:50:59,994 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 21:51:18,841 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:322] in chat [private:912632281]
+2024-12-03 21:51:18,841 - __main__ - INFO - Получено новое сообщение: привет
+2024-12-03 21:51:18,842 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 21:51:18,842 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-03 21:51:18,842 - __main__ - INFO - Начинаем генерацию ответа на промпт: привет
+2024-12-03 21:51:19,856 - __main__ - INFO - Статус ответа API Gemini: 403
+2024-12-03 21:51:19,856 - __main__ - INFO - Тело ответа API Gemini: {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+2024-12-03 21:51:19,857 - __main__ - ERROR - Ошибка API Gemini: 403 - {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+2024-12-03 21:51:19,858 - __main__ - INFO - Отправляем ответ: Произошла ошибка при генерации ответа. Попробуйте позже.
+2024-12-03 21:51:20,070 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529277]: [success] (in 1228 ms)
+2024-12-03 21:51:43,557 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-03 21:52:15,799 - __main__ - INFO - Бот запущен
+2024-12-03 21:52:15,799 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 21:52:19,931 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:324] in chat [private:912632281]
+2024-12-03 21:52:19,932 - __main__ - INFO - Получено новое сообщение: ку
+2024-12-03 21:52:19,932 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 21:52:19,932 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2024-12-03 21:52:19,932 - __main__ - INFO - Начинаем генерацию ответа на промпт: ку
+2024-12-03 21:52:20,970 - __main__ - INFO - Статус ответа API Gemini: 403
+2024-12-03 21:52:20,970 - __main__ - INFO - Тело ответа API Gemini: {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+2024-12-03 21:52:20,971 - __main__ - ERROR - Ошибка API Gemini: 403 - {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+2024-12-03 21:52:20,971 - __main__ - INFO - Отправляем ответ: Произошла ошибка при генерации ответа. Попробуйте позже.
+2024-12-03 21:52:21,115 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529278]: [success] (in 1184 ms)
+2024-12-03 22:00:52,973 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-03 22:06:34,228 - __main__ - INFO - Бот запущен
+2024-12-03 22:06:34,228 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 22:06:45,956 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:326] in chat [private:912632281]
+2024-12-03 22:06:45,956 - __main__ - INFO - Получено новое сообщение: duckduckgo [привет]
+2024-12-03 22:06:45,956 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 22:06:45,957 - __main__ - INFO - Обрабатываем запрос к DuckDuckGo...
+2024-12-03 22:06:45,957 - __main__ - INFO - Запрос к DuckDuckGo: [привет]
+2024-12-03 22:06:46,952 - __main__ - INFO - Результаты не найдены
+2024-12-03 22:06:46,953 - __main__ - INFO - Отправляем ответ: Результаты не найдены.
+2024-12-03 22:06:47,149 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529279]: [success] (in 1193 ms)
+2024-12-03 22:08:34,782 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-03 22:08:37,429 - __main__ - INFO - Бот запущен
+2024-12-03 22:08:37,429 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 22:08:44,310 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:328] in chat [private:912632281]
+2024-12-03 22:08:44,310 - __main__ - INFO - Получено новое сообщение: duckduckgo [привет]
+2024-12-03 22:08:44,310 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 22:08:44,311 - __main__ - INFO - Обрабатываем запрос к DuckDuckGo...
+2024-12-03 22:08:44,311 - __main__ - INFO - Запрос к DuckDuckGo: [привет]
+2024-12-03 22:08:45,099 - __main__ - ERROR - Ошибка при запросе к DuckDuckGo: 202
+2024-12-03 22:08:45,100 - __main__ - INFO - Отправляем ответ: Ошибка при запросе к DuckDuckGo.
+2024-12-03 22:08:45,305 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529280]: [success] (in 995 ms)
+2024-12-03 22:08:54,749 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2024-12-03 22:10:28,501 - __main__ - INFO - Бот запущен
+2024-12-03 22:10:28,501 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2024-12-03 22:10:41,338 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:330] in chat [private:912632281]
+2024-12-03 22:10:41,339 - __main__ - INFO - Получено новое сообщение: duckduckgo [привет]
+2024-12-03 22:10:41,339 - __main__ - INFO - Тип сообщения: communication
+2024-12-03 22:10:41,339 - __main__ - INFO - Обрабатываем запрос к DuckDuckGo...
+2024-12-03 22:10:41,339 - __main__ - INFO - Запрос к DuckDuckGo: [привет]
+2024-12-03 22:10:42,219 - __main__ - ERROR - Ошибка при запросе к DuckDuckGo: 202
+2024-12-03 22:10:42,221 - __main__ - INFO - Отправляем ответ: Ошибка при запросе к DuckDuckGo.
+2024-12-03 22:10:42,420 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529281]: [success] (in 1082 ms)
+2024-12-04 02:51:12,896 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2024-12-04 05:52:43,927 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Program Files\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\Python38\lib\socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2024-12-04 20:59:41,778 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Program Files\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\Python38\lib\socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2024-12-05 00:14:30,048 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2024-12-05 03:16:01,011 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Program Files\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\Python38\lib\socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2024-12-05 13:28:06,805 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Program Files\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\Python38\lib\socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2024-12-05 13:28:24,676 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Program Files\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\Python38\lib\socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2024-12-05 14:30:44,781 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2024-12-05 14:43:17,433 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Program Files\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\Python38\lib\socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-26 23:13:23,646 - __main__ - INFO - Бот запущен
+2025-08-26 23:13:23,646 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-26 23:13:31,733 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:336] in chat [private:912632281]
+2025-08-26 23:13:31,733 - __main__ - INFO - Получено новое сообщение: /start
+2025-08-26 23:13:31,733 - __main__ - INFO - Тип сообщения: communication
+2025-08-26 23:13:31,733 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-26 23:13:31,733 - __main__ - INFO - Начинаем генерацию ответа на промпт: /start
+2025-08-26 23:13:34,241 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-26 23:13:34,242 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756239212-0paW8tNiwo88BXlzefM5","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756239212,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Здравствуйте, товарищ! Иван Петрович к вашим услугам. Рад приветствовать вас в нашем советском техническом диалоге. В каком вопросе вам нужна помощь? Готов поделиться своим опытом и знаниями, как говорится, \"от и до\".","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":134,"completion_tokens":70,"total_tokens":204,"prompt_tokens_details":null}}
+2025-08-26 23:13:34,242 - __main__ - INFO - Сгенерирован ответ: Здравствуйте, товарищ! Иван Петрович к вашим услугам. Рад приветствовать вас в нашем советском техническом диалоге. В каком вопросе вам нужна помощь? Готов поделиться своим опытом и знаниями, как говорится, "от и до".
+2025-08-26 23:13:34,244 - __main__ - INFO - Отправляем ответ: Здравствуйте, товарищ! Иван Петрович к вашим услугам. Рад приветствовать вас в нашем советском техническом диалоге. В каком вопросе вам нужна помощь? Готов поделиться своим опытом и знаниями, как говорится, "от и до".
+2025-08-26 23:13:34,424 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529282]: [success] (in 2691 ms)
+2025-08-26 23:13:53,071 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:338] in chat [private:912632281]
+2025-08-26 23:13:53,072 - __main__ - INFO - Получено новое сообщение: привет, как дела? расскажи про ГОСТы))
+2025-08-26 23:13:53,074 - __main__ - INFO - Тип сообщения: communication
+2025-08-26 23:13:53,074 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-26 23:13:53,074 - __main__ - INFO - Начинаем генерацию ответа на промпт: привет, как дела? расскажи про ГОСТы))
+2025-08-26 23:13:56,292 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-26 23:13:56,293 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756239233-WCNEOZ0ouPI53An1HIvi","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756239233,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Приветствую, товарищ! Дела идут, как говорится, по плану. В советское время у нас было приятно работать, когда всё чётко регламентировано и стандартизировано. Так что, если у тебя есть интерес к ГОСТам, давай поговорим об этом.\n\nГОСТы, это же Государственные Стандарты СССР. Они охватывали, товарищ, практически все сферы нашей жизни: от металлургии до программирования. В моей области, в программировании, основным документом был ГОСТ 19.005-78 \"Единая система программной документации (ЕСПД)\". Это был наш библический кодекс, скажем так.\n\nВ этом стандарте, товарищ, было всё: от требований к оформлению алгоритмов до правил написания документов. Например, ГОСТ 19.701-79 \"Единая система конструкторской документации (ЕСКД)\" регламентировал, как должны оформляться схемы и чертежи. А ГОСТ 2.701-73 \"Общие требования к текстовым документам\" говорил, как надо писать технические описания и отчёты.\n\nИ помню, как в советское время мы строго следовали этим стандартам. Ведь, как говорится, \"Без стандартов — как без рук\". Если бы каждый делал по-своему, то какой бы был порядок?\n\nТак что, товарищ, если у тебя есть конкретные вопросы по ГОСТам, спрашивай. Буду рад помочь, как говорится, \"от сердца к сердцу\".","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":147,"completion_tokens":394,"total_tokens":541,"prompt_tokens_details":null}}
+2025-08-26 23:13:56,294 - __main__ - INFO - Сгенерирован ответ: Приветствую, товарищ! Дела идут, как говорится, по плану. В советское время у нас было приятно работать, когда всё чётко регламентировано и стандартизировано. Так что, если у тебя есть интерес к ГОСТам, давай поговорим об этом.
+
+ГОСТы, это же Государственные Стандарты СССР. Они охватывали, товарищ, практически все сферы нашей жизни: от металлургии до программирования. В моей области, в программировании, основным документом был ГОСТ 19.005-78 "Единая система программной документации (ЕСПД)". Это был наш библический кодекс, скажем так.
+
+В этом стандарте, товарищ, было всё: от требований к оформлению алгоритмов до правил написания документов. Например, ГОСТ 19.701-79 "Единая система конструкторской документации (ЕСКД)" регламентировал, как должны оформляться схемы и чертежи. А ГОСТ 2.701-73 "Общие требования к текстовым документам" говорил, как надо писать технические описания и отчёты.
+
+И помню, как в советское время мы строго следовали этим стандартам. Ведь, как говорится, "Без стандартов — как без рук". Если бы каждый делал по-своему, то какой бы был порядок?
+
+Так что, товарищ, если у тебя есть конкретные вопросы по ГОСТам, спрашивай. Буду рад помочь, как говорится, "от сердца к сердцу".
+2025-08-26 23:13:56,296 - __main__ - INFO - Отправляем ответ: Приветствую, товарищ! Дела идут, как говорится, по плану. В советское время у нас было приятно работать, когда всё чётко регламентировано и стандартизировано. Так что, если у тебя есть интерес к ГОСТам, давай поговорим об этом.
+
+ГОСТы, это же Государственные Стандарты СССР. Они охватывали, товарищ, практически все сферы нашей жизни: от металлургии до программирования. В моей области, в программировании, основным документом был ГОСТ 19.005-78 "Единая система программной документации (ЕСПД)". Это был наш библический кодекс, скажем так.
+
+В этом стандарте, товарищ, было всё: от требований к оформлению алгоритмов до правил написания документов. Например, ГОСТ 19.701-79 "Единая система конструкторской документации (ЕСКД)" регламентировал, как должны оформляться схемы и чертежи. А ГОСТ 2.701-73 "Общие требования к текстовым документам" говорил, как надо писать технические описания и отчёты.
+
+И помню, как в советское время мы строго следовали этим стандартам. Ведь, как говорится, "Без стандартов — как без рук". Если бы каждый делал по-своему, то какой бы был порядок?
+
+Так что, товарищ, если у тебя есть конкретные вопросы по ГОСТам, спрашивай. Буду рад помочь, как говорится, "от сердца к сердцу".
+2025-08-26 23:13:56,475 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529283]: [success] (in 3404 ms)
+2025-08-26 23:40:55,193 - main - INFO - Поиск ГОСТа по номеру: 2.105-95
+2025-08-26 23:40:55,194 - main - INFO - Поиск ГОСТа по номеру: 34.602-89
+2025-08-26 23:40:55,196 - main - INFO - Поиск рекомендаций ГОСТов для задачи: техническая документация
+2025-08-26 23:40:55,198 - main - INFO - Поиск рекомендаций ГОСТов для задачи: оформление документов
+2025-08-26 23:40:55,199 - main - INFO - Поиск ГОСТа по номеру: 999.999-99
+2025-08-26 23:40:55,199 - main - ERROR - Ошибка при поиске ГОСТа: 'VeteranAIBot' object has no attribute 'gost_parser'
+2025-08-26 23:59:40,391 - main - INFO - Поиск ГОСТа по номеру: 2.105-95
+2025-08-27 00:02:54,537 - main - INFO - Поиск ГОСТа по номеру: 2.105-95
+2025-08-27 00:17:26,325 - __main__ - INFO - Бот запущен
+2025-08-27 00:17:26,325 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 00:17:36,407 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:340] in chat [private:912632281]
+2025-08-27 00:17:36,408 - __main__ - INFO - Получено новое сообщение: ку
+2025-08-27 00:17:36,409 - __main__ - INFO - Тип сообщения: communication
+2025-08-27 00:17:36,409 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-27 00:17:36,409 - __main__ - INFO - Начинаем генерацию ответа на промпт: ку
+2025-08-27 00:17:39,285 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-27 00:17:39,285 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756243057-dLVd4mAiUdwnPEH0fgDG","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756243057,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Здравствуйте, товарищ! Как говорится, \"пришел, увидел, победил\" — вот и вы обратились ко мне за советом. Я, Яков Давидович, готов помочь вам разобраться в любом техническом вопросе. В советское время мы, инженеры, всегда строго следовали ГОСТам и стандартам, и я готов поделиться этим опытом с вами.\n\nЧем могу быть полезен?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":135,"completion_tokens":106,"total_tokens":241,"prompt_tokens_details":null}}
+2025-08-27 00:17:39,286 - __main__ - INFO - Сгенерирован ответ: Здравствуйте, товарищ! Как говорится, "пришел, увидел, победил" — вот и вы обратились ко мне за советом. Я, Яков Давидович, готов помочь вам разобраться в любом техническом вопросе. В советское время мы, инженеры, всегда строго следовали ГОСТам и стандартам, и я готов поделиться этим опытом с вами.
+
+Чем могу быть полезен?
+2025-08-27 00:17:39,404 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529284]: [success] (in 2997 ms)
+2025-08-27 00:17:59,003 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:342] in chat [private:912632281]
+2025-08-27 00:17:59,004 - __main__ - INFO - Получено новое сообщение: /chess
+2025-08-27 00:17:59,004 - __main__ - INFO - Обрабатываем команду...
+2025-08-27 00:17:59,123 - __main__ - INFO - Тип сообщения: communication
+2025-08-27 00:17:59,123 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-27 00:17:59,124 - __main__ - INFO - Начинаем генерацию ответа на промпт: /chess
+2025-08-27 00:18:02,279 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-27 00:18:02,279 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756243079-kBlEVoX7Zq32aKkzfpz7","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756243079,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ах, шахматы! Ну конечно, товарищ! В советское время шахматы были не просто игрой, а настоящим интеллектуальным сражением, как говорится. У нас в Новороссийске даже шахматные клубы были при каждом заводе и институте. А знаете ли вы, что в 1960 году был принят ГОСТ 9318-60, который регламентировал размеры и вес шахматных фигур? Да-да, товарищ, даже в такой, казалось бы, простой игре у нас всё было стандартизировано!\n\nА если говорить о шахматных часах, то здесь уже ГОСТ 28699-90. Они должны быть точными, как швейцарские, но с душой советского народного творчества. В моё время каждый уважающий себя шахматист знал, что часы — это не просто прибор, а часть игры.\n\nЧто именно вас интересует по поводу шахмат, товарищ? Хотите разобрать правила по ГОСТу или, может, обсудить стратегию? Готов помочь!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":136,"completion_tokens":261,"total_tokens":397,"prompt_tokens_details":null}}
+2025-08-27 00:18:02,280 - __main__ - INFO - Сгенерирован ответ: Ах, шахматы! Ну конечно, товарищ! В советское время шахматы были не просто игрой, а настоящим интеллектуальным сражением, как говорится. У нас в Новороссийске даже шахматные клубы были при каждом заводе и институте. А знаете ли вы, что в 1960 году был принят ГОСТ 9318-60, который регламентировал размеры и вес шахматных фигур? Да-да, товарищ, даже в такой, казалось бы, простой игре у нас всё было стандартизировано!
+
+А если говорить о шахматных часах, то здесь уже ГОСТ 28699-90. Они должны быть точными, как швейцарские, но с душой советского народного творчества. В моё время каждый уважающий себя шахматист знал, что часы — это не просто прибор, а часть игры.
+
+Что именно вас интересует по поводу шахмат, товарищ? Хотите разобрать правила по ГОСТу или, может, обсудить стратегию? Готов помочь!
+2025-08-27 00:18:02,397 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529285]: [success] (in 3394 ms)
+2025-08-27 00:20:21,186 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:345] in chat [private:912632281]
+2025-08-27 00:20:21,186 - __main__ - INFO - Получено новое сообщение: /chess
+2025-08-27 00:20:21,187 - __main__ - INFO - Обрабатываем команду...
+2025-08-27 00:20:21,331 - __main__ - INFO - Тип сообщения: communication
+2025-08-27 00:20:21,331 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-27 00:20:21,332 - __main__ - INFO - Начинаем генерацию ответа на промпт: /chess
+2025-08-27 00:20:23,944 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-27 00:20:23,946 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756243221-REGpyStjpcH2Fw0F84Qx","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756243222,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ах, товарищ, шахматы! В советское время это была не просто игра, а целое искусство, почти как балет или космическая программа! Вспомнить хотя бы легендарных Каспарова, Карпова, Таля – настоящие герои нашего времени.\n\nЕсли говорить о стандартах, то в советское время шахматы регулировались ГОСТом 9385-75 «Шахматные часы». Эти часы обеспечивали строгую реализацию времени на обдумывание хода, что было важно для честной игры. Кстати, в ГОСТах также прописаны размеры доски, формы фигур и даже цвет клеток – всё должно быть по уставу, как говорится.\n\nА ещё, товарищ, шахматы в СССР были неотъемлемой частью воспитания. В школах и клубах юных техников их изучали как дисциплину, развивающую логику и стратегическое мышление. Да и в армии, помню, шахматы были популярны среди офицеров – отдых за доской с боевыми фигурами.\n\nЕсли вопросы по правилам или истории шахмат – спрашивай, товарищ! Всё знаю, как говорится, «от и до»!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":136,"completion_tokens":286,"total_tokens":422,"prompt_tokens_details":null}}
+2025-08-27 00:20:23,949 - __main__ - INFO - Сгенерирован ответ: Ах, товарищ, шахматы! В советское время это была не просто игра, а целое искусство, почти как балет или космическая программа! Вспомнить хотя бы легендарных Каспарова, Карпова, Таля – настоящие герои нашего времени.
+
+Если говорить о стандартах, то в советское время шахматы регулировались ГОСТом 9385-75 «Шахматные часы». Эти часы обеспечивали строгую реализацию времени на обдумывание хода, что было важно для честной игры. Кстати, в ГОСТах также прописаны размеры доски, формы фигур и даже цвет клеток – всё должно быть по уставу, как говорится.
+
+А ещё, товарищ, шахматы в СССР были неотъемлемой частью воспитания. В школах и клубах юных техников их изучали как дисциплину, развивающую логику и стратегическое мышление. Да и в армии, помню, шахматы были популярны среди офицеров – отдых за доской с боевыми фигурами.
+
+Если вопросы по правилам или истории шахмат – спрашивай, товарищ! Всё знаю, как говорится, «от и до»!
+2025-08-27 00:20:24,288 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529286]: [success] (in 3102 ms)
+2025-08-27 00:20:29,879 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 00:20:33,606 - __main__ - INFO - Бот запущен
+2025-08-27 00:20:33,606 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 00:20:40,294 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:348] in chat [private:912632281]
+2025-08-27 00:20:40,294 - __main__ - INFO - Получено новое сообщение: /chess
+2025-08-27 00:20:40,294 - __main__ - INFO - Обрабатываем команду...
+2025-08-27 00:20:40,396 - __main__ - INFO - Тип сообщения: communication
+2025-08-27 00:20:40,397 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-27 00:20:40,397 - __main__ - INFO - Начинаем генерацию ответа на промпт: /chess
+2025-08-27 00:20:42,888 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-27 00:20:42,889 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756243240-BcbLwKyrjqgmDZL3AYEI","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756243240,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ах, шахматы, товарищ! В советское время это была не просто игра, а целый институт! Знаешь, у нас даже был ГОСТ на шахматные доски и фигуры – ГОСТ 9474-78. Там всё чётко прописано: размеры клеток, высота фигур, даже цвет доски – только чёрные и белые клетки, никаких тебе синих или зелёных!\n\nА ты, товарищ, играешь в шахматы? В советское время каждый уважающий себя инженер должен был уметь не только писать программы, но и давать мат в два хода. Шахматы – это как математика, но только на доске. Там тоже логика, стратегия, как говорится, «мыслить как компьютер».\n\nЕсли хочешь, могу посоветовать хорошие книги или рассказать про знаменитых советских шахматистов. Каспаров, Карпов – это же наша гордость! Ну или, если хочешь, сыграем партию – но предупреждаю, в молодости я был не прочь потренироваться с коллегами из НИИ.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":136,"completion_tokens":262,"total_tokens":398,"prompt_tokens_details":null}}
+2025-08-27 00:20:42,890 - __main__ - INFO - Сгенерирован ответ: Ах, шахматы, товарищ! В советское время это была не просто игра, а целый институт! Знаешь, у нас даже был ГОСТ на шахматные доски и фигуры – ГОСТ 9474-78. Там всё чётко прописано: размеры клеток, высота фигур, даже цвет доски – только чёрные и белые клетки, никаких тебе синих или зелёных!
+
+А ты, товарищ, играешь в шахматы? В советское время каждый уважающий себя инженер должен был уметь не только писать программы, но и давать мат в два хода. Шахматы – это как математика, но только на доске. Там тоже логика, стратегия, как говорится, «мыслить как компьютер».
+
+Если хочешь, могу посоветовать хорошие книги или рассказать про знаменитых советских шахматистов. Каспаров, Карпов – это же наша гордость! Ну или, если хочешь, сыграем партию – но предупреждаю, в молодости я был не прочь потренироваться с коллегами из НИИ.
+2025-08-27 00:20:42,892 - __main__ - INFO - Отправляем ответ: Ах, шахматы, товарищ! В советское время это была не просто игра, а целый институт! Знаешь, у нас даже был ГОСТ на шахматные доски и фигуры – ГОСТ 9474-78. Там всё чётко прописано: размеры клеток, высота фигур, даже цвет доски – только чёрные и белые клетки, никаких тебе синих или зелёных!
+
+А ты, товарищ, играешь в шахматы? В советское время каждый уважающий себя инженер должен был уметь не только писать программы, но и давать мат в два хода. Шахматы – это как математика, но только на доске. Там тоже логика, стратегия, как говорится, «мыслить как компьютер».
+
+Если хочешь, могу посоветовать хорошие книги или рассказать про знаменитых советских шахматистов. Каспаров, Карпов – это же наша гордость! Ну или, если хочешь, сыграем партию – но предупреждаю, в молодости я был не прочь потренироваться с коллегами из НИИ.
+2025-08-27 00:20:43,025 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529287]: [success] (in 2731 ms)
+2025-08-27 00:23:05,238 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 00:23:07,020 - __main__ - INFO - Бот запущен
+2025-08-27 00:23:07,021 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 00:23:13,559 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:351] in chat [private:912632281]
+2025-08-27 00:23:13,559 - __main__ - INFO - Получена команда: /chess
+2025-08-27 00:23:13,780 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529288]: [success] (in 221 ms)
+2025-08-27 00:24:54,206 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 00:24:55,610 - __main__ - INFO - Бот запущен
+2025-08-27 00:24:55,611 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 00:25:36,261 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 00:29:29,424 - __main__ - INFO - Бот запущен
+2025-08-27 00:29:29,424 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 00:31:50,393 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:354] in chat [private:912632281]
+2025-08-27 00:31:50,393 - __main__ - INFO - Получена команда: /chess
+2025-08-27 00:31:50,850 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529289]: [success] (in 457 ms)
+2025-08-27 00:31:59,573 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:357] in chat [private:912632281]
+2025-08-27 00:31:59,574 - __main__ - INFO - Получена команда: /help
+2025-08-27 00:31:59,691 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529290]: [success] (in 119 ms)
+2025-08-27 00:51:25,554 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 00:51:31,294 - __main__ - INFO - Бот запущен
+2025-08-27 00:51:31,294 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:06:58,994 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 01:09:16,937 - __main__ - INFO - Бот запущен
+2025-08-27 01:09:16,937 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:09:23,489 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:359] in chat [private:912632281]
+2025-08-27 01:09:23,490 - __main__ - INFO - Получена команда: /chess
+2025-08-27 01:09:23,861 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529291]: [success] (in 372 ms)
+2025-08-27 01:12:00,567 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 01:12:01,872 - __main__ - INFO - Бот запущен
+2025-08-27 01:12:01,872 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:12:08,948 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:362] in chat [private:912632281]
+2025-08-27 01:12:08,948 - __main__ - INFO - Получена команда: /chess
+2025-08-27 01:12:09,173 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529292]: [success] (in 224 ms)
+2025-08-27 01:13:53,025 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 01:20:54,612 - __main__ - INFO - Бот запущен
+2025-08-27 01:20:54,612 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:21:04,814 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:365] in chat [private:912632281]
+2025-08-27 01:21:04,814 - __main__ - INFO - Получена команда: /chess
+2025-08-27 01:21:05,036 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529293]: [success] (in 222 ms)
+2025-08-27 01:21:38,400 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:368] in chat [private:912632281]
+2025-08-27 01:21:38,401 - __main__ - INFO - Получена команда: /help
+2025-08-27 01:21:38,528 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529294]: [success] (in 128 ms)
+2025-08-27 01:23:46,200 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 01:23:48,321 - __main__ - INFO - Бот запущен
+2025-08-27 01:23:48,321 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:23:56,111 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:370] in chat [private:912632281]
+2025-08-27 01:23:56,111 - __main__ - INFO - Получена команда: /help
+2025-08-27 01:23:56,235 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529295]: [success] (in 123 ms)
+2025-08-27 01:24:10,793 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:372] in chat [private:912632281]
+2025-08-27 01:24:10,794 - __main__ - INFO - Получена команда: /chess
+2025-08-27 01:24:11,002 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529296]: [success] (in 209 ms)
+2025-08-27 01:27:17,138 - aiogram.dispatcher.dispatcher - WARNING - Polling is stopped.
+2025-08-27 01:28:00,404 - __main__ - INFO - Бот запущен
+2025-08-27 01:28:00,405 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:28:11,518 - __main__ - INFO - Бот запущен
+2025-08-27 01:28:11,518 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:28:11,909 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2025-08-27 01:28:17,021 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\yalex\AppData\Roaming\Python\Python38\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2025-08-27 01:28:26,651 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:375] in chat [private:912632281]
+2025-08-27 01:28:26,651 - __main__ - INFO - Получено обычное сообщение: расскажи за генерацию видео
+2025-08-27 01:28:26,651 - __main__ - INFO - Тип сообщения: communication
+2025-08-27 01:28:26,651 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-27 01:28:26,652 - __main__ - INFO - Начинаем генерацию ответа на промпт: расскажи за генерацию видео
+2025-08-27 01:28:30,215 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-27 01:28:30,215 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756247307-2ascKmJ1PrrTcROvF6Sa","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756247307,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Ах, товарищ, разговор о генерации видео – это как раз таки тема, в которой я могу развернуться, как говорится, с полной отдачей! В советское время, конечно, о таких технологиях можно было только мечтать, но сейчас, в условиях современных достижений, это уже вполне реально.\n\nИтак, генерация видео – это процесс создания видеоконтента с использованием компьютерных технологий. В советское время у нас были кинескопы, телевизоры типа \"Радуга\" или \"Рекорд\", но о цифровом виде и речи не было. Но сейчас, товарищ, всё изменилось!\n\nДля генерации видео используются различные алгоритмы и программы. В основе лежит компьютерная графика, которая может быть как двухмерной, так и трёхмерной. В советское время у нас были стандарты типа ГОСТ 21.101-79, который регулировал требования к графической документации, но сейчас всё гораздо сложнее.\n\nВот основные методы генерации видео:\n\n1. **Компьютерная анимация**: это создание движущихся изображений с помощью компьютерных программ. В советское время у нас были ЭВМ типа \"Электроника Б3-34\", но о таких программах, как Maya или Blender, и мечтать не могли.\n\n2. **Искусственный интеллект и машинное обучение**: сейчас есть такие технологии, как GANs (Generative Adversarial Networks), которые могут генерировать видео из изображения или даже текста. Это, конечно, не ГОСТ, но это уже новый стандарт в области искусственного интеллекта.\n\n3. **Видеоизмерение и обработка**: в советское время у нас были стандарты типа ГОСТ 19614-80, который регулировал параметры телевизионного вещания, но сейчас видео можно обрабатывать и изменять с помощью программ типа Adobe After Effects или Final Cut Pro.\n\nКак говорится, прогресс не стоит на месте, товарищ! В советское время мы мечтали о таких технологиях, а сейчас они уже доступны каждому. Но важно помнить, что любая генерация видео должна соответствовать определённым стандартам и требованиям, чтобы быть качественной и соответствовать современным требованиям.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":141,"completion_tokens":529,"total_tokens":670,"prompt_tokens_details":null}}
+2025-08-27 01:28:30,223 - __main__ - INFO - Сгенерирован ответ: Ах, товарищ, разговор о генерации видео – это как раз таки тема, в которой я могу развернуться, как говорится, с полной отдачей! В советское время, конечно, о таких технологиях можно было только мечтать, но сейчас, в условиях современных достижений, это уже вполне реально.
+
+Итак, генерация видео – это процесс создания видеоконтента с использованием компьютерных технологий. В советское время у нас были кинескопы, телевизоры типа "Радуга" или "Рекорд", но о цифровом виде и речи не было. Но сейчас, товарищ, всё изменилось!
+
+Для генерации видео используются различные алгоритмы и программы. В основе лежит компьютерная графика, которая может быть как двухмерной, так и трёхмерной. В советское время у нас были стандарты типа ГОСТ 21.101-79, который регулировал требования к графической документации, но сейчас всё гораздо сложнее.
+
+Вот основные методы генерации видео:
+
+1. **Компьютерная анимация**: это создание движущихся изображений с помощью компьютерных программ. В советское время у нас были ЭВМ типа "Электроника Б3-34", но о таких программах, как Maya или Blender, и мечтать не могли.
+
+2. **Искусственный интеллект и машинное обучение**: сейчас есть такие технологии, как GANs (Generative Adversarial Networks), которые могут генерировать видео из изображения или даже текста. Это, конечно, не ГОСТ, но это уже новый стандарт в области искусственного интеллекта.
+
+3. **Видеоизмерение и обработка**: в советское время у нас были стандарты типа ГОСТ 19614-80, который регулировал параметры телевизионного вещания, но сейчас видео можно обрабатывать и изменять с помощью программ типа Adobe After Effects или Final Cut Pro.
+
+Как говорится, прогресс не стоит на месте, товарищ! В советское время мы мечтали о таких технологиях, а сейчас они уже доступны каждому. Но важно помнить, что любая генерация видео должна соответствовать определённым стандартам и требованиям, чтобы быть качественной и соответствовать современным требованиям.
+2025-08-27 01:28:30,360 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529297]: [success] (in 3711 ms)
+2025-08-27 01:38:47,463 - main - INFO - GIF файл найден: gif.gif
+2025-08-27 01:39:11,774 - __main__ - INFO - GIF файл найден: gif.gif
+2025-08-27 01:39:11,777 - __main__ - INFO - Бот запущен
+2025-08-27 01:39:11,778 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-08-27 01:39:12,255 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:377] in chat [private:912632281]
+2025-08-27 01:39:12,256 - __main__ - INFO - Получено обычное сообщение: как правильно оформлять docs файл?
+2025-08-27 01:39:15,917 - __main__ - INFO - Тип сообщения: communication
+2025-08-27 01:39:15,918 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-27 01:39:15,918 - __main__ - INFO - Начинаем генерацию ответа на промпт: как правильно оформлять docs файл?
+2025-08-27 01:39:21,535 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-27 01:39:21,535 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1756247956-WPMDIXtBpjncvmkX77i8","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756247956,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Товарищ, рад видеть в вас заинтересованность в правильном оформлении технической документации! В советское время к этому относились с особым пиететом, и я с удовольствием поделюсь с вами нашими проверенными методами.\n\nДля оформления документации, в том числе файлов формата DOC, необходимо руководствоваться следующими стандартами:\n\n1. **ГОСТ 2.105-95 \"Единая система конструкторской документации (ЕСКД). Общие требования к текстовой части чертежей и технических текстов\"**: Этот стандарт определяет общие требования к оформлению текстовой части документации. Включает требования к шрифтам, интервалам, отступам и другим параметрам.\n\n2. **ГОСТ 2.004-2015 \"Единая система конструкторской документации (ЕСКД). Виды и комплекты конструкторской документации\":** В этом стандарте указаны требования к оформлению различных видов документации, включая текстовые документы.\n\n3. **ГОСТ Р 7.0.97-2016 \"СИ. Организация работы по стандартизации. Основные виды документов по стандартизации\":** Этот стандарт регулирует оформление документов по стандартизации, что может быть полезно при создании технической документации.\n\nТеперь конкретные рекомендации для оформления DOC-файла:\n\n- **Шрифты**: Используйте стандартные шрифты, такие как Times New Roman или Arial, размером 12-14 pt. В советское время часто применяли шрифт \"Питер\" или \"Кириллицу\", но в современных условиях лучше придерживаться общепринятых стандартов.\n\n- **Поля**: Оставляйте поля по ГОСТу: верхнее и нижнее - 20 мм, левое - 30 мм, правое - 10 мм. Это обеспечит удобство чтения и печати.\n\n- **Нумерация страниц**: Нумеруйте страницы в правом верхнем углу, начиная с первой страницы. В советское время часто использовали центральную нумерацию, но сейчас это не является обязательным.\n\n- **Заголовки и подзаголовки**: Используйте стандартные стили заголовков, чтобы обеспечить единообразие. Заголовок первого уровня - полужирный, размер 14 pt, заголовок второго уровня - полужирный, размер 13 pt и так далее.\n\n- **Таблицы и рисунки**: Нумеруйте таблицы и рисунки в соответствии с текстом. Каждый рисунок и таблица должны иметь подпись и ссылки в тексте.\n\n- **Ссылки и примечания**: Ссылки на другие документы и примечания должны быть оформлены в соответствии с ГОСТ 2.105-95.\n\n- **Форматирование текста**: Текст должен быть выравнен по ширине, интервал между строками - одинарный или полуторный, в зависимости от требований. Абзацный отступ - 1,25 см.\n\nКак говорится, \"порядок в документах - порядок на производстве\". Следуя этим рекомендациям, вы сможете создать документацию, которая будет соответствовать всем необходимым стандартам и требованиям. Если у вас возникнут дополнительные вопросы, обращайтесь, товарищ!","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":143,"completion_tokens":820,"total_tokens":963,"prompt_tokens_details":null}}
+2025-08-27 01:39:21,537 - __main__ - INFO - Сгенерирован ответ: Товарищ, рад видеть в вас заинтересованность в правильном оформлении технической документации! В советское время к этому относились с особым пиететом, и я с удовольствием поделюсь с вами нашими проверенными методами.
+
+Для оформления документации, в том числе файлов формата DOC, необходимо руководствоваться следующими стандартами:
+
+1. **ГОСТ 2.105-95 "Единая система конструкторской документации (ЕСКД). Общие требования к текстовой части чертежей и технических текстов"**: Этот стандарт определяет общие требования к оформлению текстовой части документации. Включает требования к шрифтам, интервалам, отступам и другим параметрам.
+
+2. **ГОСТ 2.004-2015 "Единая система конструкторской документации (ЕСКД). Виды и комплекты конструкторской документации":** В этом стандарте указаны требования к оформлению различных видов документации, включая текстовые документы.
+
+3. **ГОСТ Р 7.0.97-2016 "СИ. Организация работы по стандартизации. Основные виды документов по стандартизации":** Этот стандарт регулирует оформление документов по стандартизации, что может быть полезно при создании технической документации.
+
+Теперь конкретные рекомендации для оформления DOC-файла:
+
+- **Шрифты**: Используйте стандартные шрифты, такие как Times New Roman или Arial, размером 12-14 pt. В советское время часто применяли шрифт "Питер" или "Кириллицу", но в современных условиях лучше придерживаться общепринятых стандартов.
+
+- **Поля**: Оставляйте поля по ГОСТу: верхнее и нижнее - 20 мм, левое - 30 мм, правое - 10 мм. Это обеспечит удобство чтения и печати.
+
+- **Нумерация страниц**: Нумеруйте страницы в правом верхнем углу, начиная с первой страницы. В советское время часто использовали центральную нумерацию, но сейчас это не является обязательным.
+
+- **Заголовки и подзаголовки**: Используйте стандартные стили заголовков, чтобы обеспечить единообразие. Заголовок первого уровня - полужирный, размер 14 pt, заголовок второго уровня - полужирный, размер 13 pt и так далее.
+
+- **Таблицы и рисунки**: Нумеруйте таблицы и рисунки в соответствии с текстом. Каждый рисунок и таблица должны иметь подпись и ссылки в тексте.
+
+- **Ссылки и примечания**: Ссылки на другие документы и примечания должны быть оформлены в соответствии с ГОСТ 2.105-95.
+
+- **Форматирование текста**: Текст должен быть выравнен по ширине, интервал между строками - одинарный или полуторный, в зависимости от требований. Абзацный отступ - 1,25 см.
+
+Как говорится, "порядок в документах - порядок на производстве". Следуя этим рекомендациям, вы сможете создать документацию, которая будет соответствовать всем необходимым стандартам и требованиям. Если у вас возникнут дополнительные вопросы, обращайтесь, товарищ!
+2025-08-27 01:39:21,635 - __main__ - INFO - Индикатор обработки удален
+2025-08-27 01:39:21,843 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529298]: [success] (in 9588 ms)
+2025-08-27 01:39:39,692 - aiogram.contrib.middlewares.logging - INFO - Received message [ID:380] in chat [private:912632281]
+2025-08-27 01:39:39,692 - __main__ - INFO - Получено обычное сообщение: спасибо, как у тебя дела?
+2025-08-27 01:39:41,831 - __main__ - INFO - Тип сообщения: communication
+2025-08-27 01:39:41,831 - __main__ - INFO - Обрабатываем коммуникационный запрос...
+2025-08-27 01:39:41,831 - __main__ - INFO - Начинаем генерацию ответа на промпт: спасибо, как у тебя дела?
+2025-08-27 01:39:43,957 - __main__ - INFO - Статус ответа API OpenRouter: 200
+2025-08-27 01:39:43,957 - __main__ - INFO - Тело ответа API OpenRouter: 
+         
+
+         
+
+         
+{"id":"gen-1756247982-cOqEUfWHAdN7RgWsJz75","provider":"Chutes","model":"mistralai/mistral-small-3.2-24b-instruct:free","object":"chat.completion","created":1756247982,"choices":[{"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","index":0,"message":{"role":"assistant","content":"Спасибо, товарищ! У меня всё в порядке, как говорится, \"на службе Родине нет выходных\". В советское время мы, инженеры, привыкли работать с полной отдачей, и в душе я по-прежнему молодой специалист, готовый решить любую техническую задачу. А у тебя как дела? Надеюсь, у тебя всё в порядке и ты не испытываешь никаких технических трудностей? Если понадобится помощь, всегда готов поделиться своим опытом и знаниями, которые накопил за годы работы в соответствии с ГОСТами и стандартами.","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":142,"completion_tokens":145,"total_tokens":287,"prompt_tokens_details":null}}
+2025-08-27 01:39:43,958 - __main__ - INFO - Сгенерирован ответ: Спасибо, товарищ! У меня всё в порядке, как говорится, "на службе Родине нет выходных". В советское время мы, инженеры, привыкли работать с полной отдачей, и в душе я по-прежнему молодой специалист, готовый решить любую техническую задачу. А у тебя как дела? Надеюсь, у тебя всё в порядке и ты не испытываешь никаких технических трудностей? Если понадобится помощь, всегда готов поделиться своим опытом и знаниями, которые накопил за годы работы в соответствии с ГОСТами и стандартами.
+2025-08-27 01:39:44,083 - __main__ - INFO - Индикатор обработки удален
+2025-08-27 01:39:44,195 - aiogram.contrib.middlewares.logging - INFO - Process update [ID:66529299]: [success] (in 4503 ms)
